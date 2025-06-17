@@ -29,3 +29,9 @@
     background-color: rgb(133, 133, 243);
     --bs-btn-border-color: #c7c7c7;
 }
+
+.quiz_answer_card:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.05);
+
+}
