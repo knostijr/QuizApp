@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    min-height: 100vh;
+    max-width: 100%;
+    background-color: rgb(133, 133, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz_card {
+    width: 35rem;
+}
+.question_footer {
+
+    border-top: 1px solid rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.btn-primary {
+    background-color: rgb(133, 133, 243);
+    --bs-btn-border-color: #c7c7c7;
+}
