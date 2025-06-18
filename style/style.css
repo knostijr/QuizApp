@@ -35,3 +35,19 @@
     background-color: rgba(0,0,0,0.05);
 
 }
+
+.bg-success, .bg-danger {
+    color: white;
+}
+
+.width_100 {
+    width: 100%;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.final_headline {
+    font-size: 32;
+}
