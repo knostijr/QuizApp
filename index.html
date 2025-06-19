@@ -34,14 +34,26 @@
         <div class="card quiz_card">
             <img src="./assets/img/quiz.jpg" id="header_img" class="card-img-top" alt="QUiztime">
 
+            <div class="progress">
+                <div class="progress-bar" id="progress_bar" role="progressbar">25%</div>
+            </div>
+
             <div class="card-body" id="end_screen" style="display: none;">
                 <div class="text_center final_headline">
                     Quiz beendet!
                 </div>
 
                 <div class="text_center">
-                    Du hast <b id="amount_of_right_questions">XXX</b> Fragen von <b id="amount_of_questions">XXX</b> richtg beantwortet
+                    Du hast <b id="amount_of_right_questions">XXX</b> Fragen von <b id="amount_of_questions">XXX</b>
+                    richtg beantwortet
                 </div>
+
+
+                <div class="button_row">
+                    <button onclick="restartGame()" class="btn btn-primary"> Erneut spielen</button>
+                </div>
+
+
             </div>
 
 

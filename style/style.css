@@ -51,3 +51,11 @@
 .final_headline {
     font-size: 32;
 }
+.card-img {
+    width: 540px;
+}
+.button_row {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
